@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+*{list-style:none;outline:none;}
+body{font-family:"微软雅黑";text-align: center;}
+a{
+	text-indent: 1em;
+	display:inline-block;
+	font-size:22px;
+	color:blue;
+	}
+a:nth-child(1){text-indent:0;}/* 设置第一个链接的首行缩进为0 */
+a:link,a:visited{text-decoration:none;} 
+
+a:hover{
+	text-decoration:underline;
+	color:#f03;
+	}
+dl{display:none;}
+dd{
+	line-height:38px;
+	font-size:22px;
+	font-family:"微软雅黑";
+	color:#333;
+	}
+dd:before{content:url(images/11.png);}/* 添加小图片 */
+dd:nth-child(odd){color:#BDA793;}
+dd:nth-child(2) em{
+	color:#f03;
+	font-weight:bold;
+	font-style: normal;
+	}
+
+:target{display:block;}/* 链接到的内容部分显示 */
+    </style>
+</head>
+<body>
+    <h2>旅游好去处</h2>
+<hr size="3" color="#5E2D00"  width="750px">
+<nav>
+    <a href="#news1" class="one">东京</a>
+    <a href="#news2" class="two">大阪</a>
+    <a href="#news3" class="two">新加坡</a>
+    <a href="#news4" class="two">曼谷</a>
+</nav>
+<hr size="3" color="#5E2D00"  width="750px">
+<dl id="news1">
+	<dt><img src="东京.jpg"></dt>
+</dl>
+<dl id="news2">
+	<dt><img src="大阪.jpg"></dt>
+
+</dl>
+<dl id="news3">
+	<dt><img src="新加坡.jpg"></dt>
+
+</dl>
+<dl id="news4">
+	<dt><img src="曼谷.jpg"></dt>
+</dl>
+</body>
+</html>
