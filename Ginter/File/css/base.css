@@ -1,0 +1,114 @@
+*,
+::before,
+::after{
+margin:0;
+padding:0;
+/* -webkit-tap-highlight-color: #fff; */
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+body{
+    font-size: 14px;
+    font-family:"Microsoft yaHei",sans-serif;
+    color: #333;
+    background-color: #e0e0e0;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+input{
+    border: none;
+    outline: none;
+    
+    -webkit-appearance: none;
+} 
+/* 通用*/
+ .f_left
+{
+    float: left;
+}
+.f_right
+{
+    float: left;
+}
+.clearfix::before,.clearfix::after
+{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+[class^="icon_"]
+{
+    
+   
+     background-size: 200px 200px;  
+}
+.m_110
+{
+    margin-left: 10px;
+}
+.m_r10
+{
+    margin-right: 10px;
+}
+.m_b10
+{
+    margin-bottom: 10px;
+}
+.m_t10
+{
+    margin-top: 10px;
+} 
+/* 定义顶部通栏 */
+.hm_topBar
+{
+    width: 100%;
+    height: 45px;
+    background: url(tp\9.png)repeat-x;
+    background-size: 1px 44px;
+    border-bottom: 1px solid #ccc;
+    /* position: absolute; */
+}
+.hn_topBar>[class^="icon_"]
+{
+    position: absolute;
+    top: 0;
+    height: 44px;
+    width: 40px;
+    padding:12px 10px;
+    background-clip: content-box;
+    background-origin: content-box; 
+}
+.hm_topBar>.icon_back
+{
+    left: 0;
+    background-position: -20px 0;
+}
+.hm_topBar>form
+{
+    width: 100%;
+    height: 44px;
+    padding: 0 40px;
+}
+.hm_topBar>form>input
+{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 7px;
+}
+

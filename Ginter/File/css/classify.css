@@ -1,0 +1,84 @@
+
+.hm_ig{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    background-position: 0 -103px;
+    top:10px;
+    left: 5px;
+}
+.hm_category_left{
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+.hm_category_left>ul{
+
+}
+.hm_category_left>ul>li{
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+   
+}
+.hm_category_left>ul>li>a{
+    display: block;
+    text-decoration:none;
+}
+.hm_category_left>ul>li.now{
+    border-right: none;
+}
+.hm_category_left>ul>li.now a{
+    color: #d8505c;
+}
+/* 毛大衣 */
+.hm_category_right{
+    overflow: hidden;
+    height: 100%;
+  
+}
+.hm_category_right_box{
+    padding: 0 13px;
+}
+.hm_category_right_box .banner{
+    width: 100%;
+    display: block;
+    /* height: ; */
+    
+}
+/* .hm_category_right_box .banner img{
+    width: 90%;
+    /* height: 400px; */
+/* } */
+.hot_cat{
+    margin-top: 10px;
+}
+.hot_cat h3{
+    font-size: 20px;
+    
+}
+.hot_cat ul{
+    width: 100%;
+}
+.hot_cat ul li{
+    width: 33.333%;
+    float: left;
+    list-style: none;
+    
+}
+.hot_cat ul li a{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.hot_cat ul li a img{
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    display: block;
+}
